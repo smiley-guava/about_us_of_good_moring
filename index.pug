@@ -1,0 +1,121 @@
+doctype html
+head
+  title 早安高齡組
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='icon' type='image/png' href='img/icon.png')
+  link(rel='stylesheet' href='https://unpkg.com/purecss@2.0.5/build/base-min.css')
+  link(rel='stylesheet' href='https://unpkg.com/purecss@2.0.5/build/grids-min.css')
+  link(rel='stylesheet' href='https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css')
+  script(type='text/javascript' src='https://semantic-ui.com/examples/assets/library/jquery.min.js')
+  link(rel='stylesheet' href='https://semantic-ui.com/dist/semantic.css')
+  link(rel='stylesheet' type='text/css' href='css/index.sass')
+  link(rel='stylesheet' href='css/style.sass')
+  script(type='text/javascript ' src='https://semantic-ui.com/dist/semantic.min.js')
+  script.
+    function mouseover() {
+    document.getElementById('top').src = ""
+    }
+    function mouseout() {
+    document.getElementById('top').src = "img/回到頁首按鍵.png"
+    }
+// pure css
+.l-content
+  #home.pure-g
+    .pure-u-1.pure-u-md-1-5
+      .banner
+        img(src='img/左上文字群組-34.png')
+    .pure-u-1.pure-u-md-3-5
+      .banner
+        img(src='img/早安高齡組logo含亮亮.png')
+    .pure-u-1.pure-u-md-1-5
+      .banner
+        img(src='img/頁首右上文字.png')
+    .pure-u-1-24
+.big_circle(style='height:8000px')
+  .l-content.pure-g
+    .pure-u-1.pure-u-md-1-1.space
+    .pure-u-1.pure-u-md-1-1.space
+    .pure-u-1.pure-u-md-1-6
+      .Object
+        img#Q1(src='img/裝飾物件_1.png')
+      .Object
+        img#Q2(src='img/裝飾物件_2.png')
+    .pure-u-1.pure-u-md-2-3
+      .banner.ImgCircle
+        img(src='img/小組照片-07.png')
+    .pure-u-1.pure-u-md-1-6
+      .Object
+        img#Q3(src='img/裝飾物件_3.png')
+      .Object
+        img#Q4(src='img/裝飾物件_4.png')
+      .Object
+        img#Q5(src='img/裝飾物件_5.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p1.person(src='img/個人照片_1.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p2.person(src='img/個人照片_2.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p3.person(src='img/個人照片_3.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p4.person(src='img/個人照片_4.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p5.person(src='img/個人照片_5.png')
+    .pure-u-1.pure-u-md-1-6.ImgHeight
+      .banner.ImgHeight
+        img#p6.person(src='img/個人照片_6.png')
+    // Personal Introduction
+    #t2
+    #intro.intro
+      #personal_img.personal_img
+        // <img id="intro_img">
+      #personal_intro.personal_intro
+        .intro_container
+          span#intro_name
+          span#intro_text
+            b &#x5E74;&#x9F61;
+            span#intro_age
+            br
+            b &#x64D4;&#x7576;
+            span#intro_job
+            br
+            b &#x8208;&#x8DA3;
+            span#intro_interest
+            br
+            b &#x4EA4;&#x53CB;&#x689D;&#x4EF6;
+            span#intro_friendship
+            br
+            b &#x4E00;&#x53E5;&#x8A71;&#x81EA;&#x6211;&#x4ECB;&#x7D39;
+            span#intro_one
+            br
+    // end Personal Introduction
+    .pure-u-1.pure-u-md-1-1.Bluebar.align_center
+      span
+        | &#x65E9;&#x5B89; Good Morning &#x304A;&#x306F;&#x3088; bon Matin &#xC88B;&#xC740; &#xC544;&#xCE68; guten Morgen Thanks Marvin
+    .pure-u-1.pure-u-md-1-1.space
+    .pure-u-1.pure-u-md-1-1.space
+  // end
+// end l-content
+.white
+.footer.l-content
+  .pure-g
+    .pure-u-1.pure-u-md-1-6.align_left.light_blue
+      | &#x570B;&#x7ACB;&#x6210;&#x529F;&#x5927;&#x5B78;
+      br
+      | &#x9;&#x9;&#x9;&#x9;&#x96FB;&#x6A5F;&#x5DE5;&#x7A0B; &#x5DE5;&#x696D;&#x8A2D;&#x8A08;
+    .pure-u-1.pure-u-md-1-4.align_left.light_blue
+      | National Cheng Kung University
+      br
+      | &#x9;&#x9;&#x9;&#x9;Electrical Engineering Industrial Design
+    .pure-u-1.right.pure-u-md-1-12
+      // <a href="#home"><img src="回到頁首按鍵.png" width="1" height="1"></a>
+a(href='#home')
+  #top(onmouseover='mouseover()' onmouseout='mouseout()')
+script(src='js/intro.js')
+script(src='js/script.js')
+script(src='js/Shake.js')
+
